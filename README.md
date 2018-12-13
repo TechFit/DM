@@ -1,7 +1,11 @@
 # DM
 
-Please verify your php enabled ext. before using:
+**Please verify your php enabled ext. before using:**
 1. IMAP
 2. php-xml
 
-Before starting please fill required vars in Steam::class.
+**How to use:**
+1. Composer install
+2. Before starting please fill required vars in Steam::class.
+3. cd src/
+4. php index.php
