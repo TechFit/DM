@@ -35,8 +35,6 @@ class Steam
 
         $new_user = $handler->makeNewUser($this->_email, $this->_email_password, $this->_new_steam_account_name, $this->_new_steam_account_password, $this->hostname);
 
-        var_dump($new_user);
-
         if ($new_user) {
 
             $login_user = self::login($this->_new_steam_account_name, $this->_new_steam_account_password);
