@@ -12,7 +12,7 @@ class Captcha
 {
     const RU_CAPTCHA_IN = 'http://rucaptcha.com/in.php';
     const RU_CAPTCHA_RES = 'http://rucaptcha.com/res.php';
-    const RU_CAPTCHA_KEY = '07d30d1625b1560e6e63dd00ed600754';
+    const RU_CAPTCHA_KEY = '';
 
     public function getCaptchaLink(\Unirest\Response $response): array
     {
